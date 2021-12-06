@@ -1,7 +1,16 @@
 .flex-end{
     justify-content: flex-end;
  }
-
+ .jumbotron{
+     margin-bottom:0;
+     color: #ffffff;
+     background:#663fb5 url(../css/bg-header.jpg) no-repeat center bottom;
+     background-size:cover;
+     border-radius:0}
+     @media (max-width:767.98px)
+     {.jumbotron{padding-top:6.75rem}}
+     @media (min-width:768px)
+     {.jumbotron{height:100%;padding:0}}
 
 /* :root {
     --theme-color:#dab200;
@@ -3245,3 +3254,4 @@ li:last-child{
 
 
  */
+ 
