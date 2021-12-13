@@ -399,8 +399,8 @@ section .view{
 
 .subscription-cont .price-card{
     position: relative;
-    width: 280px;
-    height: 400px;
+    width: 300px;
+    height: 450px;
     margin: 5px;
     box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
     background: rgba(255,255,255,0.1);
@@ -427,3 +427,11 @@ section .view{
     transform: scale(1.05);
     transition: 0.4s linear 0.2s;
 }
+
+@media (max-width: 569px) {
+    .subscription-cont .price-card{
+        display:block;
+        width: 320px;
+        margin-bottom: 10px;
+    }
+    }
