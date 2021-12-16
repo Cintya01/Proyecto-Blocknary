@@ -10,6 +10,12 @@ html {
 }
 * {
     box-sizing: border-box;
+        font-family: 'Comfortaa', cursive;
+        font-size: 14px;
+        font-weight: 300;
+        color: #fff;
+ 
+    
 }
 
 .flex-end{
@@ -63,13 +69,6 @@ html {
     color: #fff;
 }
     
-.tank-main-banner h3.sub-text{
-    font-family: 'Prompt', sans-serif;
-    font-size: 24px;
-    font-weight: 300;
-     color: #fff;
-}
-
 .tank-main-banner .banner-info {
      padding-top: 100px;
  }
@@ -428,6 +427,32 @@ section .view{
     transition: 0.4s linear 0.2s;
 }
 
+.btn-price{
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: #0e1538;
+    color: #fff;
+    border: none;
+    padding: 15px 60px;
+    transition: 1s;
+}
+.btn-price:hover{
+background-color: #133FD0;
+border-radius: 15px 50px;
+
+}
+
+@media (min-width: 900px){
+.subscription-cont{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    padding: 5px;
+    z-index: 1;
+}
+}
+
+
 @media (max-width: 569px) {
     .subscription-cont .price-card{
         display:block;
@@ -466,7 +491,7 @@ section .view{
     left: 0;
     width: 100%;
     height: 100%;
-    background: #09569F;
+    background: #133FD0;
     transition: 0.5s;
     display: flex;
     justify-content: center;
@@ -544,4 +569,46 @@ section .view{
         text-align: center;
         z-index: 1;
     }
+}
+.footer-end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.bottom-copies{
+   
+}
+
+p a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Chakra Petch', sans-serif !important;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+}
+.footer-icon{
+    color: #fff;
+    padding: 10px;
+}
+
+@media (max-width: 569px) {
+    .footer-end{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;  
+    }
+
+    .pad-mq{
+        padding-top: 10px;
+    }
+
+}
+
+.line{
+ border-top: 5px double #0056DA;
+
+ 
 }
